@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* =========================
+   After Game Styling
+   ========================= */
+
+.after-game {
+  color: #ffd1dc; /* soft romantic pink */
+}
+
+/* Main messages */
+.after-game h2 {
+  color: #ff69b4; /* hot pink */
+  text-align: center;
+}
+
+/* Small text (like the message under the final text) */
+.after-game p {
+  color: #ffe4ec;
+}
+
+/* Final message emphasis */
+.after-game .final-message {
+  color: #ff2e63;
+  text-shadow: 0 0 12px rgba(255, 46, 99, 0.6);
+}
+
+/* globals.css or a separate CSS file */
+.proposal-text {
+  color: #ffffff; /* hot pink */
+}
